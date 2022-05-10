@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Procfile"
+git commit -m "heroku"
 git push origin master
 git push heroku master
