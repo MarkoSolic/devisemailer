@@ -1,1 +1,2 @@
-web: bundle exec rails server -p 3000
+export PORT=3000
+foreman start
