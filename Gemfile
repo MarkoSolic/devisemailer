@@ -34,6 +34,7 @@ gem 'devise', '~> 4.8', '>= 4.8.1'
 
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
+gem 'ransack', '~> 2.1'
 
 group :development, :test do
 
