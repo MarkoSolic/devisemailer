@@ -1,3 +1,4 @@
 git add -A
-git commit -m "dorada"
-git push origin comments
+git commit -m "update"
+git push origin master
+git push heroku master
