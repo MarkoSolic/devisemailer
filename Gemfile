@@ -36,6 +36,8 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 gem 'ransack', '~> 2.1'
 
+gem 'pg', '~> 1.3', '>= 1.3.5'
+
 gem 'will_paginate', '~> 3.1'
 
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
@@ -47,7 +49,6 @@ end
 
 group :development do
   gem 'web-console', '>= 3.3.0'
-  gem 'sqlite3', '1.3.13'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
@@ -59,5 +60,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'rails_12factor', '~> 0.0.3'
-  gem 'pg', '~> 1.3', '>= 1.3.5'
+
 end
