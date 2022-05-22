@@ -43,7 +43,7 @@ gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 
 
 group :development, :test do
-
+  gem 'rspec-rails', '~> 3.8'
   gem 'byebug', platform: :mri
 end
 
